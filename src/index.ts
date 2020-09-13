@@ -3,10 +3,12 @@ import "reflect-metadata";
 // import { User } from "./entity/User";
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
+import "dotenv/config";
+
+const port: Number = Number(process.env.PORT) || 1234;
 
 (async () => {
   const app = express();
-  const port = process.env.PORT || 1234;
 
   app.get("/", (_req, res) => {
     res.send("express works");
