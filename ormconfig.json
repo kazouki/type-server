@@ -1,7 +1,7 @@
 {
   "name": "default",
   "type": "postgres",
-  "url": "",
+  "url": "postgres://myjdcqpl:ftzbM6dZtso5ltjsot2fw0GLraPe6gK7@kandula.db.elephantsql.com:5432/myjdcqpl",
   "synchronize": true,
   "logging": true,
   "entities": ["src/entity/*.*"],
